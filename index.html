@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Curso de JavaScript</title>
+    <title>Pizzaria</title>
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
@@ -59,7 +59,7 @@
     </aside>
     <div class="pizzaWindowArea">
         <div class="pizzaWindowBody">
-            <div class="pizzaInfo--cancelMobileButton">Voltar</div>
+            <div onclick="closeModal()" class="pizzaInfo--cancelMobileButton">Voltar</div>
             <div class="pizzaBig">
                 <img src="" />
             </div>
@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <div class="pizzaInfo--addButton">Adicionar ao carrinho</div>
-                <div class="pizzaInfo--cancelButton">Cancelar</div>
+                <div onclick="closeModal()" class="pizzaInfo--cancelButton">Cancelar</div>
             </div>
         </div>
     </div>
